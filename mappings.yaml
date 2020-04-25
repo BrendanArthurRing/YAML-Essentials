@@ -1,0 +1,13 @@
+# Mappings
+host: phl-42
+datacenter:
+  location: Philadelphia
+  cab: 13
+  cab_unit: 3
+
+# Keys on the same indentation 
+# level need to be unique.
+
+# Adapted for flow styles
+host: phl-42
+datacenter: { location: Philadelphia , cab: 13 , cab_unit: 3 }
