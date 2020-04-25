@@ -1,0 +1,13 @@
+# Block Style
+host: phl-42
+datacenter:
+  location: Philidelphia
+  cab: 13
+roles:
+  - web
+  - dns
+
+# Flow Style (Ext of JASON)
+host: "phl-42"
+datacenter: { location: Philidelphia , cab: 13 }
+roles: [ web, dns ]
